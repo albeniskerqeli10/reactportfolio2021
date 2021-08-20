@@ -1,0 +1,60 @@
+@import '../utils/_variables';
+
+//Styling Header Component
+
+.header {
+    width:100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    justify-content:space-between ;
+.header__logo {
+    display: flex;
+    padding: 10px;
+    flex-basis: auto;
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: center;
+h4 {
+    color:$black;
+    font-weight: 650;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+
+    max-width: 100%;
+    border-radius: 100px;
+}
+
+}
+
+.header__nav {
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: center;
+.header__navlink {
+    padding: 10px;
+   
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: $lightblack;
+    margin: 10px ;
+}
+
+
+}
+
+
+}
+
+
+

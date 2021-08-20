@@ -1,0 +1,26 @@
+@import './utils/_variables';
+
+
+@import './utils/mixins';
+
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  list-style-type: none;
+}
+
+.App {
+  width:100%;
+@include flexcolumn()
+}
+
+.App__Container {
+  width: 100%;
+  max-width: 72%;
+  @include  flexcolumn();
+
+}
