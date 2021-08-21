@@ -7,8 +7,9 @@ const About = () => {
         <div>
             <TwoColumn/>
             <Skills/>
+            
         </div>
     )
 }
 
-export default About
+export default React.memo(About);

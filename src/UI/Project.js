@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/project.scss';
-const Project = (props) => {
+const Project = React.memo((props) => {
     return (
         <div className="project">
             <div className="project__image">
@@ -24,6 +24,7 @@ const Project = (props) => {
            
         </div>
     )
-}
 
+}
+)
 export default Project;
