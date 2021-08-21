@@ -1,8 +1,6 @@
 import React from 'react'
 import '../styles/project.scss';
-import {Link , useHistory} from 'react-router-dom';
 const Project = (props) => {
-    const history = useHistory();
     return (
         <div className="project">
             <div className="project__image">
