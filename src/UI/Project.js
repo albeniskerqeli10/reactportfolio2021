@@ -10,6 +10,8 @@ const Project = (props) => {
             <div className="project__text">
             <h1>{props.name}</h1>
             <p>{props.tools}</p>
+                        </div>
+
             </div>
 
             <div className="project__desc">
@@ -18,7 +20,6 @@ const Project = (props) => {
     <a className="project__btn" href={props.site}>Demo</a>
     <a className="project__btn" href={props.site}>Code</a>
                 </div>
-            </div>
             </div>
            
         </div>

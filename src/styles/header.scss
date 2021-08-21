@@ -39,6 +39,20 @@ img {
     flex-basis: auto;
     align-items: center;
     justify-content: center;
+
+    ul {
+        list-style: none;
+padding: 0;
+margin: 0;
+        padding-inline-end: 0px;
+        padding-inline-start: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
 .header__navlink {
     padding: 10px;
    

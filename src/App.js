@@ -1,14 +1,16 @@
 import './App.scss';
-import React  from 'react';
+import React, { Suspense }  from 'react';
 import Header from './components/Header';
 
 import Contact from './components/Contact';
 import {BrowserRouter as Router , Route , Switch} from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
+const Home = React.lazy(() => import('./pages/Home')); // Lazy-loaded
+const About = React.lazy(() => import('./pages/About')); // Lazy-loaded
+
 
 function App() {
   return (
+    <Suspense fallback={null}>
     <div className="App">
 <div className="App__Container">
 <Router>
@@ -24,6 +26,7 @@ function App() {
   </Router>
 </div>
     </div>
+    </Suspense>
   );
 }
 

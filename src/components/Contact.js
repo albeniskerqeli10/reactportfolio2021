@@ -7,10 +7,10 @@ const Contact = () => {
         
 <p>I’m currently available for a office or freelance job<br/>
 If you have a project that you want to get started or any job  position related to my skills,<br/> you can contact me on  social media accounts</p>
-<span className="contact__email">
+{/* <div className="contact__email">
 <i className="far fa-envelope"></i>
-<h2>albeniskerqeli5@gmail.com</h2>
-</span>
+<h4>albeniskerqeli5@gmail.com</h4>
+</div> */}
 <div className="contact__icons">
 <i className="fab fa-linkedin"></i>
 

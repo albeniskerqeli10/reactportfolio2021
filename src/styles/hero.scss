@@ -43,12 +43,12 @@ padding: 20px 0;
         .hero__text {
             .hero__title {
                 font-size:1.5rem;
+                
             }
             
         }
         .hero__paragraph {
                 font-size: 1rem;
-                margin:0!important;
 
             }
      
@@ -57,3 +57,18 @@ padding: 20px 0;
     
 }
 
+@media (max-width:480px) {
+    .hero {
+        .hero__text {
+            .hero__title {
+                font-size: 1.2rem;
+                line-height: 30px;
+            }
+          
+        }
+        .hero__paragraph {
+            font-size: 0.9rem;
+        }
+
+    }
+}
