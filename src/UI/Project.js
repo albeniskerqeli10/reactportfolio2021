@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/project.scss';
+import {Link , useHistory} from 'react-router-dom';
 const Project = (props) => {
+    const history = useHistory();
     return (
         <div className="project">
             <div className="project__image">
@@ -15,8 +17,8 @@ const Project = (props) => {
             <div className="project__desc">
                 <p>{props.desc}</p>
                 <div className="project__buttons">
-                <button>Live</button>
-                <button>Code</button>
+    <a className="project__btn" href={props.site}>Demo</a>
+    <a className="project__btn" href={props.site}>Code</a>
                 </div>
             </div>
             </div>

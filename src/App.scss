@@ -1,7 +1,6 @@
 @import './utils/_variables';
 
 
-@import './utils/mixins';
 
 * {
   margin:0;
@@ -15,12 +14,27 @@ body {
 
 .App {
   width:100%;
-@include flexcolumn()
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .App__Container {
   width: 100%;
   max-width: 72%;
-  @include  flexcolumn();
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 
+}
+
+@media (max-width:768px) {
+  .App__Container {
+    width: 100%;
+    max-width:100%;
+  }
 }

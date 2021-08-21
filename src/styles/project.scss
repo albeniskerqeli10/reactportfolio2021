@@ -1,3 +1,6 @@
+@import '../utils/_variables';
+
+
 .project {
     flex-basis: 400px;
     min-height: 300px;
@@ -10,7 +13,7 @@
 .project__image {
 flex-basis: 400px;
     min-height: 200px;
-    background-color: whitesmoke;
+    background-color: $graywhite;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -70,15 +73,41 @@ object-fit: cover;
             font-weight: 500;
             line-height: 35px;
         }
-        button {
-            padding:15px 30px;
+        .project__btn {
+            padding:14px 30px;
+            font-size: 15px;
+            font-weight:500;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             border-radius: 10px;
-            background-color:#0052FF;
+            text-decoration: none;
+            background-color:$darkorange;
             margin: 0 10px;
             border: none;
-            color: white;
+            color: $white;
+        }
+        .project__btn:nth-child(2) {
+            background-color:$lightorange;
+         border: none;
+            color:$black;
         }
     }
 }
 
 }
+@media (max-width:768px) {
+    .project {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 20px 0 ;
+        .project__info {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}
+
