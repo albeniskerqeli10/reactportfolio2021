@@ -2,7 +2,7 @@ import React from 'react'
 import Skills from '../components/Skills'
 import TwoColumn from '../components/TwoColumn'
 
-const About = () => {
+const About = React.memo(() => {
     return (
         <div>
             <TwoColumn/>
@@ -11,5 +11,6 @@ const About = () => {
         </div>
     )
 }
+)
 
-export default React.memo(About);
+export default About;

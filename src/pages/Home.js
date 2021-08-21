@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero.js';
 import Projects from '../components/Projects.js';
-const Home = () => {
+const Home = React.memo(() => {
     return (
 <>
 <Hero/>
@@ -9,5 +9,6 @@ const Home = () => {
 </>
     )
 }
+)
 
-export default React.memo(Home);
+export default Home;

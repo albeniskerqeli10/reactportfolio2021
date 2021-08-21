@@ -8,7 +8,7 @@ const Home = React.lazy(() => import('./pages/Home')); // Lazy-loaded
 const About = React.lazy(() => import('./pages/About')); // Lazy-loaded
 
 
-function App() {
+const App = React.memo(() =>  {
   return (
     <Suspense fallback={null}>
     <div className="App">
@@ -29,5 +29,6 @@ function App() {
     </Suspense>
   );
 }
+)
 
 export default App;
