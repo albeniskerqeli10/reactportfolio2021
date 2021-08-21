@@ -1,4 +1,4 @@
-import React , {Suspense} from 'react'
+import React from 'react'
 import Skills from '../components/Skills'
 import TwoColumn from '../components/TwoColumn'
 
