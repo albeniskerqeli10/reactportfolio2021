@@ -13,23 +13,31 @@
     justify-content:space-between ;
 .header__logo {
     display: flex;
-    padding: 10px;
-    flex-basis: auto;
 display: flex;
 gap: 10px;
 align-items: center;
 justify-content: center;
+
+.header__pic {
+    width: 40px;
+    height: 40px;
+    background-image: url('https://res.cloudinary.com/albenis/image/upload/v1629466276/personalpic2_v00iao.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 500px;
+}
+
 h4 {
     color:$black;
     font-weight: 650;
 }
 
 img {
-    width: 40px;
-    height: 40px;
-
-    max-width: 100%;
-    border-radius: 100px;
+    display: block;
+width:40px;
+height:40px;
+    border-radius: 400px;
 }
 
 }

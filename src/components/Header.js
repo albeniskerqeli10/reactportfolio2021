@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className="header">
 <div className="header__logo">
-    <img  src='https://res.cloudinary.com/albenis/image/upload/v1629466276/personalpic2_v00iao.webp' alt="personal pic" loading="lazy" />
+    <div className="header__pic"></div>
  <h4>Albenis</h4>
 </div>
         <nav className="header__nav">
