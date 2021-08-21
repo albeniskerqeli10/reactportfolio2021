@@ -1,7 +1,7 @@
 export const projects  = [
     {
         name:"Ecommerce Web App",
-        image:'https://res.cloudinary.com/albenis/image/upload/v1629466423/ecommerce_gfdrwy.webp',
+        image:'https://res.cloudinary.com/albenis/image/upload/v1629582376/compressedecommerce_dhldqh.webp',
         description:'An Ecommerce Wb App built with ReactJs among wih his libraries, also provider Paypal for products checkout',
         technologies:'React, HTML, CSS, Paypal',
         livedemo:'https://reactjs-commerce.netlify.app/',
