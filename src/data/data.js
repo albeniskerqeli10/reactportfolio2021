@@ -19,7 +19,7 @@ export const projects  = [
     },
     {
         name:"Food Ordering App Website ",
-        image:'https://res.cloudinary.com/albenis/image/upload/v1629465787/pizzawebp_tqyhj2.webp',
+        image:'https://res.cloudinary.com/albenis/image/upload/v1629583391/ecommercecomwebp_in5eih.webp',
         description:'A website development and design  for a food ordering application,a figma design converted to react website',
         technologies:'React, HTML, CSS',
 
