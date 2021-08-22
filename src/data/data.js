@@ -13,7 +13,6 @@ export const projects  = [
         image:'https://res.cloudinary.com/albenis/image/upload/v1629466504/covid_pyfhzg.webp',
         description:'a Covid 21 Tracker App, which tracks real-time covid data worldwide',
         technologies:'Javascript, HTML, CSS, API',
-
         livedemo:'https://albenis-kerqeli.github.io/Covid-19-Tracker-App/',
         sourcecode:'https://github.com/Albenis-Kerqeli/Covid-19-Tracker-App',
     },
@@ -22,8 +21,8 @@ export const projects  = [
         image:'https://res.cloudinary.com/albenis/image/upload/v1629583391/ecommercecomwebp_in5eih.webp',
         description:'A website development and design  for a food ordering application,a figma design converted to react website',
         technologies:'React, HTML, CSS',
-
-        livedemo:'https://react-design-d6e9f.web.app/'
+        livedemo:'https://react-design-d6e9f.web.app/',
+        },
         
       {
         name:"Todo App ",
