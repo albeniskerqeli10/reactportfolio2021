@@ -29,6 +29,11 @@ export const projects  = [
         image:'https://res.cloudinary.com/albenis/image/upload/v1629465888/todowebp_dtr9jh.webp ',
         description:'A simple todo App built with React and Firebase, that you canadd,edit and delete your tasks in a simple way',
         technologies:'React, HTML, CSS, Firebase',
+<<<<<<< HEAD
         livedemo:'https://todo-app-2021-54205.web.app/',
+=======
+
+        livedemo:'https://todo-app-2021-54205.web.app/'
+>>>>>>> 4f9c4a271730dd50a8c4ddba12ee3ad589d31b94
     }
 ]
