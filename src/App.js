@@ -1,7 +1,6 @@
 import './App.scss';
 import React, { Suspense }  from 'react';
 import Header from './components/Header';
-
 import Contact from './components/Contact';
 import {BrowserRouter as Router , Route , Switch} from 'react-router-dom';
 const Home = React.lazy(() => import('./pages/Home')); // Lazy-loaded
@@ -11,7 +10,7 @@ const About = React.lazy(() => import('./pages/About')); // Lazy-loaded
 const App = React.memo(() =>  {
   return (
     <Suspense fallback={null}>
-    <div className="App">
+    <div className='App'>
 <div className="App__Container">
 <Router>
 

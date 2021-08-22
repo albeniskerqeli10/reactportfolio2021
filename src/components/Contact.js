@@ -12,13 +12,12 @@ If you have a project that you want to get started or any job  position related 
 <h4>albeniskerqeli5@gmail.com</h4>
 </div> */}
 <div className="contact__icons">
-<i className="fab fa-linkedin"></i>
+<i className="bi bi-linkedin"></i>
+<i className="bi bi-github"></i>
+<i className="bi bi-twitter"></i>
+<i className="bi bi-instagram"></i>
 
-<i className="fab fa-github"></i>
-<i className="fab fa-twitter"></i>
-<i className="fab fa-instagram"></i>
-
-<i className="fab fa-facebook"></i>
+<i className="bi bi-facebook"></i>
 
 </div>
         </section>
