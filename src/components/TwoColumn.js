@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/twocolumn.scss';
+import personal from '../assets/images/profilepic1.webp';
 const TwoColumn = () => {
     return (
         <section className="twocolumn">
@@ -16,7 +17,7 @@ Interested in the entire frontend spectrum and working on ambitious projects wit
 </div>
             </div>
             <div className="twocolumn__photo">
-                <img loading="lazy" src="https://res.cloudinary.com/albenis/image/upload/v1629490573/albeniskerqeli2021_pgnf3h.webp" alt="" />
+                <img loading="lazy" src={personal} alt="" />
             </div>
         </div>
             
