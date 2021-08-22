@@ -7,8 +7,6 @@
 }
 
 
-
-
 body {
   font-family: "Nunito", sans-serif;
   list-style-type: none;
@@ -46,8 +44,20 @@ body {
 }
 
 @media (max-width:960px) {
+  
   .App__Container {
     width: 100%;
     max-width:100%;
   }
+
+  h1,h2,h4,p {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width:480px) {
+  h1,h2,h4,p {
+    padding: 0.5rem;
+  }
+  
 }
